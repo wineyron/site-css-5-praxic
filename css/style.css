@@ -1,0 +1,217 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+/* Body */
+
+body {
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    width: 1440px;
+    height: 1700px;
+    margin: 0 auto;
+    background-color: #e8e8e8;
+}
+
+/* Main */
+
+.main {
+    position: relative;
+    width: 1190px;
+    height: 1064px;
+    margin: 0 auto;
+    margin-top: 106px;
+}
+
+.main:before {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../img/background_1.png') no-repeat;
+    opacity: 0.24;
+    z-index: -1;
+}
+
+/* Text__TRAVEL */
+
+.text__travel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 62px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #273d46;
+    opacity: 0.6;
+}
+
+/* Textinfo__travel */
+
+.textinfo__travel {
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 36px;
+    text-align: center;
+    width: 720px;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #273d46;
+}
+
+/* Background__travel */
+
+.background__travel {
+    outline: 10px white solid;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 821px;
+    min-width: 821px;
+    max-height: 541px;
+    min-height: 541px;
+    box-shadow: 0px 15px 65px 0px rgba(15,16,16,0.15);
+}
+
+/* TextUnder__BackgroundTravel */
+
+.textunder__backgroundtravel {
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    max-width: 740px;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #273d46;
+    margin-top: 107px;
+    opacity: 0.8;
+}
+
+.textunder__backgroundtravel .textunder__marbot {
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+/* List__Check-Icons */
+
+.list__check-icons {
+    margin: 55px 0 0 225px;
+}
+
+.list__check-icons .item__1 {
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+    color: #273d46;
+}
+
+.list__check-icons .item__2 {
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    font-style: italic;
+    color: #80b7b3;
+}
+
+.list__check-icons .item__3 {
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #273d46;
+}
+
+.list__check-icons .item__4 {
+    opacity: 0.3;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #273d46;
+}
+
+li.items{
+    background: url('../img/icons/check_icon_39.png') left 8px no-repeat;
+    padding: 0 0 0 35px;
+}
+
+/* Button */
+
+.button {
+    margin: 60px 0 0 225px;
+    
+}
+
+.btn-oval {
+    display: inline-block;
+    width: 199px;
+    height: 44px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(128,183,179,0.54) url('../img/icons/shape_2_9.png') 150px 13px no-repeat;
+    border-radius: 35px;
+    border: 1px solid rgba(87, 177, 171, 0.54);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    padding-right: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    position: relative;
+    outline: none;
+    transition: background 0.2s, color 0.2s, ease-in-out 0.2s;
+}
+
+.btn-oval:hover {
+    opacity: 0.6;
+}
